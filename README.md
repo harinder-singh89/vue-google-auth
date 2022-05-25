@@ -1,5 +1,6 @@
 # demo
 you can use the component in this way
+```
  <Login
       @auth="auth"
       ref="refobj"
@@ -10,6 +11,7 @@ you can use the component in this way
       @SigninFailed="SigninFailed"
       :clientId="clientId"
     />
+```
     refs 
     
     ref object is used to create a refernce to login component instance and access its methods. 
